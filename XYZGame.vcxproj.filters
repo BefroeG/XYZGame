@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\SDL">
+      <UniqueIdentifier>{a7545534-dba4-4117-a1d9-f7d9bab6274c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\collision">
+      <UniqueIdentifier>{3b29a624-87a5-4687-b98e-ee65415d609b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{9a103a9a-3e67-4742-bec4-5e4a95809b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\map">
+      <UniqueIdentifier>{931ea381-d733-4503-9fe5-83d442fdf122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\bgm">
+      <UniqueIdentifier>{ec0b1486-8560-4ea3-a0c3-f111a221595b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\font">
+      <UniqueIdentifier>{4da088d3-8d74-47ab-a528-fbeaff00ab62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img">
+      <UniqueIdentifier>{3feebcac-68e3-4632-a5c3-dfac002daf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\bullet">
+      <UniqueIdentifier>{f744eb03-9f7a-4897-865f-3639ed2710bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\map">
+      <UniqueIdentifier>{3aa0837a-42ec-41e9-843e-4783592b9e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\map\level1">
+      <UniqueIdentifier>{6f18a754-1ad9-4c19-8732-6e2216219192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\player">
+      <UniqueIdentifier>{aff4e10c-1b5e-4c17-840e-fa2da0712da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\player\paladin">
+      <UniqueIdentifier>{a5bb94cc-0f42-4fee-b84c-4536584ad728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\player\knight">
+      <UniqueIdentifier>{395df485-295a-48ce-84e1-11f16fb2155d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\img\weapon">
+      <UniqueIdentifier>{01ac990e-ab58-469c-959d-dcd22df6951d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\SDL3dll">
+      <UniqueIdentifier>{8cf705e6-2cef-4848-9f81-123018dfdc88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libavif-16.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_ttf-3.2.2\lib\x64\SDL3_ttf.pdb">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libgme.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libogg-0.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libopus-0.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libopusfile-0.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libpng16-16.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libtiff-6.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libwavpack-1.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libwebp-7.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libwebpdemux-2.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\libwebpmux-3.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\libxmp.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="SDL3.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3-3.4.0\lib\x64\SDL3.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3-3.4.0\lib\x64\SDL3.pdb">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\SDL3_image.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="SDL3_image.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_image-3.4.0\lib\x64\SDL3_image.pdb">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="SDL3_mixer.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\SDL3_mixer.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\SDL3_mixer.pdb">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="SDL3_ttf.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="thirdparty\SDL3_ttf-3.2.2\lib\x64\SDL3_ttf.dll">
+      <Filter>资源文件\SDL3dll</Filter>
+    </None>
+    <None Include="resources\font\wqy-zenhei.ttc">
+      <Filter>资源文件\font</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="atlas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="res_mgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_assert.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_asyncio.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_atomic.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_audio.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_begin_code.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_bits.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_blendmode.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_camera.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_clipboard.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_close_code.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_copying.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_cpuinfo.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_dialog.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_dlopennote.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_egl.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_endian.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_error.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_events.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_filesystem.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_gamepad.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_gpu.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_guid.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_haptic.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_hidapi.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_hints.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3_image-3.4.0\include\SDL3_image\SDL_image.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_init.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_intrin.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_iostream.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_joystick.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_keyboard.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_keycode.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_loadso.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_locale.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_log.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_main.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_main_impl.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_messagebox.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_metal.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_misc.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3_mixer-3.1.2\include\SDL3_mixer\SDL_mixer.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_mouse.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_mutex.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_oldnames.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengl.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengl_glext.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles2.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles2_gl2.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles2_gl2ext.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles2_gl2platform.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_opengles2_khrplatform.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_pen.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_pixels.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_platform.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_platform_defines.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_power.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_process.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_properties.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_rect.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_render.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_revision.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_scancode.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_sensor.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_stdinc.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_storage.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_surface.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_system.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_assert.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_common.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_compare.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_crc32.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_font.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_fuzzer.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_harness.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_log.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_md5.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_test_memory.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3_ttf-3.2.2\include\SDL3_ttf\SDL_textengine.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_thread.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_time.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_timer.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_touch.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_tray.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3_ttf-3.2.2\include\SDL3_ttf\SDL_ttf.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_version.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_video.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\SDL3-3.4.0\include\SDL3\SDL_vulkan.h">
+      <Filter>头文件\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_box.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collison_layer.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="res_mgr.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="map_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.aom.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.avif.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.dav1d.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.gme.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.ogg-vorbis.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.libpng.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.opus.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.opusfile.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.tiff.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.wavpack.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\optional\LICENSE.xmp.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+    <Text Include="thirdparty\SDL3_image-3.4.0\lib\x64\optional\LICENSE.webp.txt">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="thirdparty\SDL3-3.4.0\lib\x64\SDL3.lib">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Library>
+    <Library Include="thirdparty\SDL3_image-3.4.0\lib\x64\SDL3_image.lib">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Library>
+    <Library Include="thirdparty\SDL3_mixer-3.1.2\lib\x64\SDL3_mixer.lib">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Library>
+    <Library Include="thirdparty\SDL3-3.4.0\lib\x64\SDL3_test.lib">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Library>
+    <Library Include="thirdparty\SDL3_ttf-3.2.2\lib\x64\SDL3_ttf.lib">
+      <Filter>资源文件\SDL3dll</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\img\player\paladin\shadow_lock.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\crosshair.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\img\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\img\bullet\bullet_37.png">
+      <Filter>资源文件\img\bullet</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f601.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f602.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f603.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f604.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f605.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\f606.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\w601.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\w602.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\w603.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\map\level1\w604.png">
+      <Filter>资源文件\img\map\level1</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_0.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_1.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_2.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_3.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_4.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_5.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_6.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_7.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_8.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_9.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_10.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_11.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_12.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_13.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_14.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_15.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_16.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\paladin\paladin_7_skill_0_effect_0_0.png">
+      <Filter>资源文件\img\player\paladin</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_0.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_1.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_2.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_3.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_4.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_5.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_6.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_7.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_8.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_9.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_10.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_11.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_12.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_13.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_14.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_15.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\player\knight\knight_22_16.png">
+      <Filter>资源文件\img\player\knight</Filter>
+    </Image>
+    <Image Include="resources\img\weapon\weapons3_136.png">
+      <Filter>资源文件\img\weapon</Filter>
+    </Image>
+    <Image Include="resources\img\weapon\weapons3_139.png">
+      <Filter>资源文件\img\weapon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\bgm\bgm_3High.wav">
+      <Filter>资源文件\bgm</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
